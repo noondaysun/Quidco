@@ -1,0 +1,28 @@
+{
+	"autoload": {
+		"classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Quidco\\": "src/Quidco"
+        }
+    },
+    "autoload-dev": {
+    	"classmap": [
+            "tests/"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "description": "Quidco interview assessment",
+    "keywords": ["interview", "assessment"],
+    "license": "MIT",
+    "name": "Quidco interview assessment",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
